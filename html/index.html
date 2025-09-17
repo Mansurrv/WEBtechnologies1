@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serikbai Mansur - Personal Page</title>
+    <link rel="stylesheet" href="/static/index.css">
+</head>
+<body>
+
+    <header class="header-section">
+        <h1 class="main-heading">Serikbai Mansur</h1>
+        <h2 class="sub-heading">2 course, SE - 2423</h2>
+    </header>
+
+    <nav id="navbar">
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="#about-section" class="nav-link">About Me</a></li>
+            <li class="nav-item"><a href="#schedule-section" class="nav-link">Class Schedule</a></li>
+            <li class="nav-item"><a href="#contact-section" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-container">
+
+        <div id="about-section" class="content-box">
+            <h3 class="section-heading">About me</h3>
+            <p class="paragraph-text">Hello, my name is Mansur. As you can see I am a second course student at the university AITU. I am passionate about learning new technologies and enhancing my skills in software engineering. You assume I am always learning but you're wrong about me i also fascinating in formula 1.</p>
+        </div>
+
+        <div class="interests-section content-box">
+            <h3 class="section-heading">My Interests</h3>
+            <ol class="list-text">
+                <li>Formula 1</li>
+                <li>Wrestling</li>
+                <li>Watch Films</li>
+            </ol>
+            <ul class="list-text">
+                <li>formula1.com</li>
+                <li>inoriginal.com</li>
+                <li>instagram.com</li>
+            </ul>
+        </div>
+        
+        <div class="image-link-section content-box">
+            <img src="https://fueler.store/cdn/shop/articles/lewis-hamilton-career-titles-and-records-fuelertm_c312e9de-30f9-41d4-8569-5a7d12dc33a8.webp?v=1746000073" alt="Lewis Hamilton" id="featured-image">
+            <a href="https://www.formula1.com/en.html" class="link-style">Formula 1</a>
+        </div>
+        
+        <button type="button" class="btn transition-effect">Click me!</button>
+		<br>
+		<br>
+
+        <div id="schedule-section" class="content-box">
+            <h2 class="section-heading">Weekly class schedule</h2>
+            <table border="1" cellpadding="8" cellspacing="0" id="schedule-table">
+                <tr>
+                    <th>Subject</th>
+                    <th>Day</th>
+                    <th>Time</th>
+                </tr>
+                <tr>
+                    <td>Mathematics</td>
+                    <td>Monday</td>
+                    <td>10:00 - 11:30</td>
+                </tr>
+                <tr>
+                    <td>Programming</td>
+                    <td>Wednesday</td>
+                    <td>12:00 - 13:30</td>
+                </tr>
+                <tr>
+                    <td>Computer Science</td>
+                    <td>Friday</td>
+                    <td>14:00 - 15:30</td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td>Tuesday</td>
+                    <td>09:00 - 10:30</td>
+                </tr>
+                <tr>
+                    <td>Physical Education</td>
+                    <td>Thursday</td>
+                    <td>11:00 - 12:30</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="flex-layout-container">
+            <div class="sidebar-menu-flex">
+                <h3 class="menu-heading">Menu</h3>
+                <ul>
+                    <li><a href="#about-section">About Me</a></li>
+                    <li><a href="#schedule-section">Class Schedule</a></li>
+                    <li><a href="#contact-section">Contact</a></li>
+                </ul>
+            </div>
+            <div class="main-content-flex">
+                <h3 class="section-heading">Main Content</h3>
+                <p class="paragraph-text">Welcome to my personal webpage! Here you can find information about me, my interests, and my class schedule</p>
+            </div>
+        </div>
+
+        <div class="content-box">
+            <h2 class="section-heading">My mood Today</h2>
+            <p class="paragraph-text">🚀💪😊</p>
+        </div>
+
+        <div class="content-box">
+            <h2 class="section-heading">User Information Form</h2>
+            <form action="/submit_form" method="post" id="user-form">
+                <label for="name" class="form-label">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name" class="form-input"><br><br>
+                
+                <label for="email" class="form-label">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" class="form-input"><br><br>
+                
+                <label for="age" class="form-label">Age:</label><br>
+                <input type="number" id="age" name="age" placeholder="Enter your age" class="form-input"><br><br>
+                
+                <input type="submit" value="Submit" class="submit-btn">
+            </form>
+        </div>
+        
+        <div class="content-box">
+            <h2 class="section-heading">Advanced Styling Example</h2>
+            <p class="paragraph-text advanced-text">This text has a decorative element before it.</p>
+        </div>
+    </div>
+
+    <footer class="footer-section">
+        <p>&copy; 2025 Serikbai Mansur. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
